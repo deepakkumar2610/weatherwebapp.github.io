@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+form {
+  margin: 20px 0px 20px 0px;
+}
+
+.input_details input {
+  outline: none !important;
+  font-size: 1.07rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  box-shadow: none !important;
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.input_details button {
+  box-shadow: none !important;
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.input_details .seperator {
+  height: 1px;
+  width: 100%;
+  margin: 15px 0;
+  background: #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_details .seperator::before {
+  content: "or";
+  color: #6c757d;
+  font-size: 1.15rem;
+  padding: 0 5px;
+  background: #fff;
+}
+
+.weather_details {
+  margin: 20px 0px 20px 0px;
+  border-radius: 5px;
+}
+.weather_details .weather_place {
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 5px 5px 0px 0px;
+  padding: 0.5rem;
+  background-color: #6c757d;
+  opacity: 1;
+}
+.weather_details .form-switch {
+  margin-top: -0.1rem;
+  box-shadow: none !important;
+}
+
+.weather_details_card {
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.weather_details_card #temp {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 0.5rem;
+  margin-bottom: -0.5rem;
+}
+.weather_details_card .weather_temp_desc {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  flex-direction: column;
+}
+.weather_details_card #weather_icon {
+  margin-top: -10px;
+}
+.weather_details_card .weather_desc {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.weather_moods {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.2rem;
+}
+.weather_moods #icon {
+  font-size: 3rem;
+  margin-top: auto;
+}
+.weather_moods .mood_details {
+  margin-top: auto;
+  margin-left: 0.5rem;
+}
+
+.icons-desc {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.icons-desc .icon {
+  font-size: 40px;
+  color: #fff;
+  margin-right: 30px;
+}
+.icons-desc .icon_desc {
+  color: #fff;
+  font-size: 18px;
+  margin-top: auto;
+}
+
+.container {
+  min-height: 100vh;
+  position: relative;
+}
+
+header {
+  width: 100vw !important;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem 0;
+  color: #fff;
+}/*# sourceMappingURL=index.css.map */
